@@ -30,11 +30,10 @@ class MessagesController < ApplicationController
     end
   end
 
-private
+  private
   def message_params
     params.require(:message).permit(:name, :body)
   end
-  ## ここまで
   end
 
   def destroy
