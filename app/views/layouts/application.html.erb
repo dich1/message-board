@@ -15,19 +15,21 @@
       </div>
     </div>
   </nav>
+  
   <div class="container">
     
-    <% if notice %>
+<% if notice %>
 
-          <div class="alert alert-info">
+      <div class="alert alert-info">
         
-  <%= notice %>
+<%= notice %>
 
-        </div>
+      </div>
     
-  <% end %>
+<% end %>
     
-    <%= yield %>
+    
+<%= yield %>
     
   </div>
 </body>
